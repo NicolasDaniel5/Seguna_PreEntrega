@@ -27,5 +27,5 @@ let producto = productos.find(item => item._nombre === buscar);
 
 if(producto == undefined){
     alert("no se encontro");
-}else{alert(JSON.stringify(producto));}
+}else{alert(producto);}
 
